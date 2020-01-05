@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		C4A0C35223BFE37C0073A59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C35123BFE37C0073A59F /* AppDelegate.swift */; };
 		C4A0C35423BFE37C0073A59F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C35323BFE37C0073A59F /* SceneDelegate.swift */; };
-		C4A0C35623BFE37C0073A59F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C35523BFE37C0073A59F /* ContentView.swift */; };
+		C4A0C35623BFE37C0073A59F /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C35523BFE37C0073A59F /* GameDetail.swift */; };
 		C4A0C35823BFE37E0073A59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A0C35723BFE37E0073A59F /* Assets.xcassets */; };
 		C4A0C35B23BFE37E0073A59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A0C35A23BFE37E0073A59F /* Preview Assets.xcassets */; };
 		C4A0C35E23BFE37E0073A59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A0C35C23BFE37E0073A59F /* LaunchScreen.storyboard */; };
 		C4A0C36923BFE37E0073A59F /* GameInfoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C36823BFE37E0073A59F /* GameInfoAppTests.swift */; };
+		C4A0C37423BFEB3F0073A59F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C37323BFEB3F0073A59F /* CircleImage.swift */; };
+		C4A0C37723C004530073A59F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C37623C004530073A59F /* Game.swift */; };
+		C4A0C37923C006AC0073A59F /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C37823C006AC0073A59F /* GameRow.swift */; };
+		C4A0C37B23C00C180073A59F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C37A23C00C180073A59F /* Data.swift */; };
+		C4A0C37E23C010810073A59F /* gameData.json in Resources */ = {isa = PBXBuildFile; fileRef = C4A0C37D23C010810073A59F /* gameData.json */; };
+		C4A0C38223C010BA0073A59F /* thewitcher3_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A0C38123C010BA0073A59F /* thewitcher3_logo.png */; };
+		C4A0C38423C015060073A59F /* thewitcher3_geralt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4A0C38323C015060073A59F /* thewitcher3_geralt.jpg */; };
+		C4A0C38623C016920073A59F /* csgo_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4A0C38523C016920073A59F /* csgo_logo.jpg */; };
+		C4A0C38823C0170E0073A59F /* GameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0C38723C0170E0073A59F /* GameList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +39,7 @@
 		C4A0C34E23BFE37C0073A59F /* GameInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A0C35123BFE37C0073A59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A0C35323BFE37C0073A59F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4A0C35523BFE37C0073A59F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4A0C35523BFE37C0073A59F /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
 		C4A0C35723BFE37E0073A59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A0C35A23BFE37E0073A59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4A0C35D23BFE37E0073A59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +47,15 @@
 		C4A0C36423BFE37E0073A59F /* GameInfoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameInfoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A0C36823BFE37E0073A59F /* GameInfoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfoAppTests.swift; sourceTree = "<group>"; };
 		C4A0C36A23BFE37E0073A59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A0C37323BFEB3F0073A59F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C4A0C37623C004530073A59F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C4A0C37823C006AC0073A59F /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
+		C4A0C37A23C00C180073A59F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C4A0C37D23C010810073A59F /* gameData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gameData.json; sourceTree = SOURCE_ROOT; };
+		C4A0C38123C010BA0073A59F /* thewitcher3_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thewitcher3_logo.png; path = ../../../../Downloads/thewitcher3_logo.png; sourceTree = "<group>"; };
+		C4A0C38323C015060073A59F /* thewitcher3_geralt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thewitcher3_geralt.jpg; path = ../../../../Downloads/thewitcher3_geralt.jpg; sourceTree = "<group>"; };
+		C4A0C38523C016920073A59F /* csgo_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = csgo_logo.jpg; path = ../../../../Downloads/csgo_logo.jpg; sourceTree = "<group>"; };
+		C4A0C38723C0170E0073A59F /* GameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +97,18 @@
 		C4A0C35023BFE37C0073A59F /* GameInfoApp */ = {
 			isa = PBXGroup;
 			children = (
+				C4A0C37C23C0106D0073A59F /* Resources */,
+				C4A0C37523BFEF100073A59F /* Models */,
 				C4A0C35123BFE37C0073A59F /* AppDelegate.swift */,
 				C4A0C35323BFE37C0073A59F /* SceneDelegate.swift */,
-				C4A0C35523BFE37C0073A59F /* ContentView.swift */,
+				C4A0C35523BFE37C0073A59F /* GameDetail.swift */,
 				C4A0C35723BFE37E0073A59F /* Assets.xcassets */,
 				C4A0C35C23BFE37E0073A59F /* LaunchScreen.storyboard */,
 				C4A0C35F23BFE37E0073A59F /* Info.plist */,
 				C4A0C35923BFE37E0073A59F /* Preview Content */,
+				C4A0C37323BFEB3F0073A59F /* CircleImage.swift */,
+				C4A0C37823C006AC0073A59F /* GameRow.swift */,
+				C4A0C38723C0170E0073A59F /* GameList.swift */,
 			);
 			path = GameInfoApp;
 			sourceTree = "<group>";
@@ -105,6 +128,26 @@
 				C4A0C36A23BFE37E0073A59F /* Info.plist */,
 			);
 			path = GameInfoAppTests;
+			sourceTree = "<group>";
+		};
+		C4A0C37523BFEF100073A59F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4A0C37623C004530073A59F /* Game.swift */,
+				C4A0C37A23C00C180073A59F /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4A0C37C23C0106D0073A59F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4A0C38523C016920073A59F /* csgo_logo.jpg */,
+				C4A0C38323C015060073A59F /* thewitcher3_geralt.jpg */,
+				C4A0C38123C010BA0073A59F /* thewitcher3_logo.png */,
+				C4A0C37D23C010810073A59F /* gameData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,9 +231,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A0C38623C016920073A59F /* csgo_logo.jpg in Resources */,
+				C4A0C38423C015060073A59F /* thewitcher3_geralt.jpg in Resources */,
 				C4A0C35E23BFE37E0073A59F /* LaunchScreen.storyboard in Resources */,
+				C4A0C37E23C010810073A59F /* gameData.json in Resources */,
 				C4A0C35B23BFE37E0073A59F /* Preview Assets.xcassets in Resources */,
 				C4A0C35823BFE37E0073A59F /* Assets.xcassets in Resources */,
+				C4A0C38223C010BA0073A59F /* thewitcher3_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +255,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A0C37B23C00C180073A59F /* Data.swift in Sources */,
 				C4A0C35223BFE37C0073A59F /* AppDelegate.swift in Sources */,
+				C4A0C37723C004530073A59F /* Game.swift in Sources */,
+				C4A0C37923C006AC0073A59F /* GameRow.swift in Sources */,
+				C4A0C37423BFEB3F0073A59F /* CircleImage.swift in Sources */,
 				C4A0C35423BFE37C0073A59F /* SceneDelegate.swift in Sources */,
-				C4A0C35623BFE37C0073A59F /* ContentView.swift in Sources */,
+				C4A0C35623BFE37C0073A59F /* GameDetail.swift in Sources */,
+				C4A0C38823C0170E0073A59F /* GameList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
